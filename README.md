@@ -8,3 +8,4 @@ Test repo for the PostCSS Share
 
 ## Resources 
 [Tuts — PostCSS](http://webdesign.tutsplus.com/categories/postcss)
+[PostCSS Misconceptions](https://medium.com/@ddprrt/postcss-misconceptions-faf5dc5038df)
