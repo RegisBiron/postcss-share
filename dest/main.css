@@ -1,0 +1,27 @@
+/* Testing autoprefixer */
+ 
+.autoprefixer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+p {
+  color: #056ef0;
+}
+
+a {
+  color: rgba(255, 0, 0, 0.9);
+}
+
+a:hover {
+  color: rgb(51, 0, 0);
+}
+ 
+/* Testing precss */
+ 
+.precss {
+  background: green
+}
+/*# sourceMappingURL=main.css.map */
