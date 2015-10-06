@@ -1,16 +1,23 @@
+$blue: #056ef0;
+$column: 200px;
+
 /* Testing autoprefixer */
  
 .autoprefixer {
   display: flex;
 }
- 
+
+p {
+  color: $blue;
+}
+
 a {
   color: color(red alpha(-10%));
 }
 
-  a:hover {
-    color: color(red blackness(80%));
-  }
+a:hover {
+  color: color(red blackness(80%));
+}
  
 /* Testing precss */
  

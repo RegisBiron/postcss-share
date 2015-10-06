@@ -15,11 +15,12 @@ gulp.task('css', function () {
   return gulp.src('./css/*.css')
   	.pipe(sourcemaps.init())
     .pipe(postcss(processors))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./dest'));
 });
 
-// If you want to play around with integrating SASS the code below should work
-// we just won't need the precss plugin
+// Still trying to figure out how to work with SASS, 
+// The below code should work
 
 // gulp.task('sass', function(){
 // 	var processors = [
