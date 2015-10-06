@@ -7,5 +7,5 @@ Test repo for the PostCSS Share
 - run ```gulp``` to start transforming some CSS
 
 ## Resources 
-[Tuts — PostCSS](http://webdesign.tutsplus.com/categories/postcss)
-[PostCSS Misconceptions](https://medium.com/@ddprrt/postcss-misconceptions-faf5dc5038df)
+- [Tuts — PostCSS](http://webdesign.tutsplus.com/categories/postcss)
+- [PostCSS Misconceptions](https://medium.com/@ddprrt/postcss-misconceptions-faf5dc5038df)
