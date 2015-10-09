@@ -12,6 +12,7 @@ p {
 }
 
 a {
+  color: #FF0000;
   color: rgba(255, 0, 0, 0.9);
 }
 
@@ -23,5 +24,34 @@ a:hover {
  
 .precss {
   background: green
+}
+
+.block {
+  position: relative;
+}
+
+.block .block__element {
+  position: relative;
+}
+
+.block .block--modifier {
+  position: absolute;
+}
+
+/* British English Spiffing */
+
+.allo-allo {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+} 
+
+/* Oldie */
+
+.figure {
+  filter: alpha(opacity=50);
+  color: #000000;
+  color: rgba(0, 0, 0, 0.5);
 }
 /*# sourceMappingURL=main.css.map */

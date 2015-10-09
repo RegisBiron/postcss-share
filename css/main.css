@@ -1,5 +1,6 @@
 $blue: #056ef0;
 $column: 200px;
+$rgbaTest: rgba(0, 0, 0, 0.5);
 
 /* Testing autoprefixer */
  
@@ -28,4 +29,30 @@ a:hover {
   @else {
     background: blue;
   }
+}
+
+.block {
+  position: relative;
+  .block__element {
+    position: relative;;
+  }
+  .block--modifier {
+    position: absolute;;
+  }
+}
+
+/* British English Spiffing */
+
+.allo-allo {
+  colour: #000;
+  text-align: centre;
+  font-weight: plump;
+  text-transform: capitalise;
+} 
+
+/* Oldie */
+
+.figure {
+  opacity: 0.5;
+  colour: $rgbaTest;
 }

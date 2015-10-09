@@ -4,13 +4,20 @@ var sass = require('gulp-sass');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
 var cssnext = require('cssnext');
+var oldie = require('oldie');
+var rgba = require('postcss-color-rgba-fallback');
 var precss = require('precss');
+var british = require('postcss-spiffing');
+
 
 gulp.task('css', function () {
   var processors = [
+    british,
 	  autoprefixer,
 	  cssnext,
-	  precss
+	  precss,
+    rgba,
+    oldie,
   ];
   return gulp.src('./css/*.css')
   	.pipe(sourcemaps.init())
