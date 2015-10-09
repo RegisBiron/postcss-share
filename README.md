@@ -2,7 +2,7 @@
 Test repo for the PostCSS Share
 
 ## Instructions 
-- clone this repo
+- clone or fork this repo
 - run ```npm install```
 - run ```gulp``` to start transforming some CSS
 
