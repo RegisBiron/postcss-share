@@ -8,6 +8,7 @@ var oldie = require('oldie');
 var rgba = require('postcss-color-rgba-fallback');
 var precss = require('precss');
 var british = require('postcss-spiffing');
+var termColor = require('cli-color');
 
 
 gulp.task('css', function () {
@@ -18,6 +19,16 @@ gulp.task('css', function () {
 	  precss,
     rgba,
     oldie,
+    function(css) {
+      css.walkDecls('font-family', function(decl) {
+        decl.value = decl.value + ', sans-serif';
+      });
+      css.walkDecls('display', function(decl) {
+        if(decl.value == 'flex'){
+          // console.log(termColor.whiteBright.bgXterm(200)('using flexbox'));
+        }
+      });
+    },
   ];
   return gulp.src('./css/*.css')
   	.pipe(sourcemaps.init())

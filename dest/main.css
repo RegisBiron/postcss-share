@@ -54,4 +54,10 @@ a:hover {
   color: #000000;
   color: rgba(0, 0, 0, 0.5);
 }
+
+/* PostCSS API */
+
+.font {
+  font-family: Arial, sans-serif;
+}
 /*# sourceMappingURL=main.css.map */

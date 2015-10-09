@@ -56,3 +56,9 @@ a:hover {
   opacity: 0.5;
   colour: $rgbaTest;
 }
+
+/* PostCSS API */
+
+.font {
+  font-family: Arial;
+}
